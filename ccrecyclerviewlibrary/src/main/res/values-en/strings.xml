@@ -1,0 +1,9 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="network_pic">networking picture</string>
+    <string name="local_pic">local picture</string>
+    <string name="title_activity_send_error">SendErrorActivity</string>
+    <string name="loading_str">Loading</string>
+
+</resources>
