@@ -1,4 +1,4 @@
-package com.ccr.ccrecyclerviewlibrary;
+package com.ccr.ccrecyclerviewlibrary.view;
 
 /**
  * 在此写用途
