@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.res.AssetManager;
 import android.content.res.Resources;
 
-import org.apache.http.util.EncodingUtils;
+//import org.apache.http.util.EncodingUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -111,7 +111,7 @@ public class FileUtil {
             int length = is.available();
             byte[] buffer = new byte[length];
             is.read(buffer);
-            content = EncodingUtils.getString(buffer, "UTF-8");
+//            content = EncodingUtils.getString(buffer, "UTF-8");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -177,7 +177,7 @@ public class FileUtil {
             stream = new FileInputStream(file);
             byte[] buffer = new byte[(int) file.length()];
             stream.read(buffer);
-            content = EncodingUtils.getString(buffer, "UTF-8");
+//            content = EncodingUtils.getString(buffer, "UTF-8");
         } catch (IOException e) {
             e.printStackTrace();
         }
